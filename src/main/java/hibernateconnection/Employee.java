@@ -9,10 +9,11 @@ import jakarta.persistence.Table;
 @Entity
 @Table
 public class Employee {
+	
 @Id
 @GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	private String firstname,lastname,email ;
+	private String firstname,lastname,email ;  // this IS A sTRING
 	public int getId() {
 		return id;
 	}
